@@ -1,0 +1,26 @@
+# DoorDash Delivery Support Chatbot — Dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Core LLM & Embeddings ──────────────────────────────────────────────────
+google-generativeai>=0.7.0
+google-genai>=0.1.0
+
+# ── LangChain (RAG pipeline) ──────────────────────────────────────────────
+langchain>=0.2.0
+langchain-google-genai>=1.0.0
+langchain-community>=0.2.0
+
+# ── Vector Store ──────────────────────────────────────────────────────────
+chromadb>=0.5.0
+
+# ── API Backend ────────────────────────────────────────────────────────────
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+pydantic>=2.7.0
+
+# ── Frontend ──────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+httpx>=0.27.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0

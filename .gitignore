@@ -1,0 +1,33 @@
+# .gitignore — Delivery Chatbot
+
+# Environment & secrets
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# ChromaDB vector store (large binary files)
+vector_store/
+
+# Interaction logs (may contain PII)
+logs/
+
+# Judge batch report
+logs/judge_report.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
